@@ -275,7 +275,7 @@ public class MainActivity extends AppCompatActivity implements OnInitListener {
         final String TARGET_URL =
                 "https://vision.googleapis.com/v1/images:annotate?";
         final String API_KEY =
-                "key=***REMOVED***";
+                "key="removed";
 
         URL serverUrl = new URL(TARGET_URL + API_KEY);
 //		URLConnection urlConnection = serverUrl.openConnection();
